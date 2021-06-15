@@ -1,0 +1,44 @@
+.Header
+{
+    background-color: var(--background) !important;
+    header
+{
+    margin: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        color: var(--primary);
+        padding: 15px;
+    }   
+    nav
+    {
+        margin: 0 320px 0 320px;
+        display: flex;
+        flex-direction: row;
+        .logo
+        {
+            position: fixed;
+            left: 48px;
+        }
+        
+        .socials
+        {
+            padding: 0 155px 0 0;
+         
+        }
+       .navigation
+       {
+        
+       }
+       .auth
+       {
+        padding: 0 0 0 155px;
+           
+       }
+    }
+}
+}
