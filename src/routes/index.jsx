@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Register from '../pages/Register'
 import PostDetail from '../pages/PostDetail';
 import Header from '../components/Header'
+import Create from '../pages/Create'
 
 const Routes = () => {
     return (
@@ -19,6 +20,9 @@ const Routes = () => {
                 path="/post/:id"
                 component={PostDetail}
             />
+            <Route
+                path="/create/post"
+                component={Create} />
         </div>
     )
 }

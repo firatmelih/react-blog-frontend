@@ -5,10 +5,11 @@ import axios from "axios";
 import Routes from './routes'
 // import List from './components/List'
 import Sidebar from './components/Sidebar'
-
+import Create from './pages/Create'
 
 function App() {
   return (
+
     <Router>
       <Route>
         <Header />

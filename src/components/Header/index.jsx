@@ -20,7 +20,8 @@ const Header = () => {
                             exact to="/"><i
                                 class="large home icon" /></Link>
                         <a href=""><i class="large user icon" /></a>
-                        <a href=""><i class="large edit icon" /></a>
+                        <Link
+                            exact to="/create/post"><i class="large edit icon" /></Link>
                         <a href=""><i class="large comment alternate icon" /></a>
                     </div>
                     <div className="auth">
