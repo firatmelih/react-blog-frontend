@@ -2,20 +2,19 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from '../pages/Home'
 import Register from '../pages/Register'
+import Header from '../components/Header'
 
 const Routes = () => {
     return (
-        <Router>
+        <div className="Routes">
             <Route
                 exact
                 path="/"
-            >
-                <Home />
-            </Route>
+                component={Home} />
             <Route
                 path="/register"
                 component={Register} />
-        </Router>
+        </div>
     )
 }
 

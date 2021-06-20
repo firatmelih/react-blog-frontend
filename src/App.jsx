@@ -4,6 +4,7 @@ import Header from './components/Header'
 import axios from "axios";
 import Routes from './routes'
 
+
 function App() {
   // const [posts, setPosts] = useState([]);
   // useEffect(() => {
@@ -15,10 +16,11 @@ function App() {
   // console.log(posts);
   return (
     <Router>
-      <Header />
-      <Routes />
+      <Route>
+        <Header />
+        <Routes />
+      </Route>
     </Router>
-
   );
 }
 
