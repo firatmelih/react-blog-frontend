@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    top: 55px !important;
+    width: 320px;
+    height: 1000px;
+    display: flex;
+    color: black;
+    background-color: white;
+    flex-direction: column;
+    align-items: center; 
+   .divItem
+   {
+    margin-top: 25px;
+    .divTitle
+    {
+        width: 160px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    .divDesc
+    {
+        margin-top: 25px;
+        width: 160px;
+        text-align: center;
+    }
+    .socials
+    {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+   }
+    
+  }
+  

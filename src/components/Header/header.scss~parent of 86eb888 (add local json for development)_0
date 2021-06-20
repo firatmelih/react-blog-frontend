@@ -1,0 +1,48 @@
+header
+{
+    z-index: 555;
+    box-sizing: border-box;
+    background-color: var(--background) !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        color: var(--primary);
+        padding: 15px;
+    }   
+    nav
+    {
+        height: 55px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;       
+        justify-content: space-around;
+        .logo
+        {
+        }
+       .navigation
+       {
+        padding: 0 150px 0 150px;
+        a
+        {
+            margin-right: 35px;
+            margin-left: 35px;
+        }
+       }
+       .auth
+       {
+           .auth-true
+           {
+               img
+               {
+                   height: 45px;
+                   border-radius: 100%;
+               }
+           }
+       }
+    }
+}
