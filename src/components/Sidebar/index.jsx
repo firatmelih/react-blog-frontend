@@ -32,6 +32,14 @@ export default function Sidebar() {
             </div>
             <div className="divItem">
                 <div className="divTitle">
+                    Licence
+                </div>
+                <div className="divDesc">
+                    <a><i class="balance scale icon"></i> MIT Licence</a>
+                </div>
+            </div>
+            <div className="divItem">
+                <div className="divTitle">
                     Copyright
                 </div>
                 <div className="divDesc">

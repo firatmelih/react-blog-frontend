@@ -1,7 +1,17 @@
-.posts{
-    display: flex;
-    flex-direction: column;
+
+.switch
+{
+    display: flex !important;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+}
+#posts
+{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-gap: 25px;
+
+    &.list{
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
 }
