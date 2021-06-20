@@ -10,7 +10,8 @@ const Header = () => {
                 <nav>
                     <div className="logo">
                         <Link exact to="/">
-                            <i class="large rss square icon" />
+                            <i
+                                class="large rss square icon" />
                         </Link>
                     </div>
                     <div className="navigation">

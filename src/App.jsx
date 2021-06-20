@@ -6,14 +6,6 @@ import Routes from './routes'
 
 
 function App() {
-  // const [posts, setPosts] = useState([]);
-  // useEffect(() => {
-  //   axios.get('http://localhost:5000/api/posts')
-  //     .then(res => { setPosts(res.data) })
-  //     .catch(err => console.log(err))
-
-  // }, [])
-  // console.log(posts);
   return (
     <Router>
       <Route>
