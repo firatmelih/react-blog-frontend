@@ -1,14 +1,13 @@
-.sidebar {
+.list {
     position: fixed;
     z-index: 2;
-    right: 0;
+    left: 0;
     top: 55px !important;
     width: 320px;
     height: 1000px;
     display: flex;
-    color: black;
-    // background: linear-gradient(135deg, rgb(142, 142, 189) 34%, cyan);
-    background-color: var(--primary);
+    color: white;
+    background: linear-gradient(180deg, var(--background) 3%, white);
     flex-direction: column;
     align-items: center; 
     a{

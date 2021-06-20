@@ -7,11 +7,12 @@
 }
 #posts
 {
+    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-gap: 25px;
 
-    &.list{
+    &.list-view{
         grid-template-columns: repeat(1, minmax(100px, 1fr));
     }
 }

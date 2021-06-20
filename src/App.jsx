@@ -3,21 +3,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from './components/Header'
 import axios from "axios";
 import Routes from './routes'
+// import List from './components/List'
+import Sidebar from './components/Sidebar'
 
 
 function App() {
-  // const [posts, setPosts] = useState([]);
-  // useEffect(() => {
-  //   axios.get('http://localhost:5000/api/posts')
-  //     .then(res => { setPosts(res.data) })
-  //     .catch(err => console.log(err))
-
-  // }, [])
-  // console.log(posts);
   return (
     <Router>
       <Route>
         <Header />
+        <Sidebar />
         <Routes />
       </Route>
     </Router>
