@@ -10,7 +10,7 @@ export default function Posts(props) {
                     class="ui button "><i class="icon th " /></button>
                 <div class="or"></div>
                 <button
-                    onClick={() => { document.querySelector('#posts').className = "list" }}
+                    onClick={() => { document.querySelector('#posts').className = "list-view" }}
                     class="ui button"><i class="align justify icon" /></button>
             </div>
 

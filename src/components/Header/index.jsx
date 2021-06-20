@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './header.scss'
 import { Link } from "react-router-dom";
 
 const Header = () => {
-
     return (
+
         <>
+
             <header>
                 <nav>
                     <div className="logo">
@@ -15,7 +16,9 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className="navigation">
-                        <Link exact to="/"><i class="large home icon" /></Link>
+                        <Link
+                            exact to="/"><i
+                                class="large home icon" /></Link>
                         <a href=""><i class="large user icon" /></a>
                         <a href=""><i class="large edit icon" /></a>
                         <a href=""><i class="large comment alternate icon" /></a>

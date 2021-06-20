@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import './home.scss'
-import Sidebar from '../../components/Sidebar'
 import Posts from '../../components/Posts'
+// import List from '../../components/List'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import axios from "axios";
@@ -24,7 +24,6 @@ const Home = () => {
 
     return (
         <div className="Home">
-            <Sidebar />
             <Posts posts={posts} />
         </div>
     )

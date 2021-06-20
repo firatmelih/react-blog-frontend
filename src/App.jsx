@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from './components/Header'
 import axios from "axios";
 import Routes from './routes'
+// import List from './components/List'
+import Sidebar from './components/Sidebar'
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <Router>
       <Route>
         <Header />
+        <Sidebar />
         <Routes />
       </Route>
     </Router>
